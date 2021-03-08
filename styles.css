@@ -157,9 +157,67 @@ nav {
 }
 
 
+/* Mobile Width  */
+
+@media (min-width: 800px) {
+    .search .search-field {
+        width: 500px;
+    }
+}
+
+@media (max-width: 750px) {
+    .google-logo .logo {
+        width: 50%;
+        margin: 25% auto 0;
+    }
+    
+    .search .search-field {
+        width: 80%;
+    }
+    .footerleftside, .footerrightside {
+        display: block;
+        text-align: center;
+        float: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .leftside-nav {
+        display: none; 
+    }
+    .rightside-nav {
+        position:static;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* Mobile Height */
+
+@media (max-height: 540px) {
+    .google-logo .logo {
+        margin: 3% auto 0;
+        width: 30%;
+    }
+
+    .search .search-field {
+        margin-top: 0;
+    }
+
+    .search .search-icon {
+        position: absolute;
+        top: 10px;
+    }
 
 
-
-
+    .btn-section .google-btn .btn1, .btn-section .google-btn .btn2 {
+        display: none;
+    }
+  
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
 
 

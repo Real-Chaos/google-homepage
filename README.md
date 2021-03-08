@@ -1,1 +1,1 @@
-It still needs to be made responsive
+Google Homepage clone with HTML & CSS.
